@@ -20,4 +20,13 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Entidades\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entidades\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Escola\Escola.csproj" />
+  </ItemGroup>
 </Project>
